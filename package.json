@@ -28,6 +28,7 @@
     "verify": "yarn workspace @ss-2/snfoundry verify"
   },
   "dependencies": {
+    "next": "^15.1.5",
     "postcss": "^8.4.38"
   },
   "devDependencies": {

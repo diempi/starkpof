@@ -4,6 +4,11 @@ local-devnet
 package-lock.json
 .idea
 
+
+
+# Environment files
+.env.local
+.env
 # yarn / eslint
 .yarn/*
 !.yarn/patches
@@ -12,4 +17,14 @@ package-lock.json
 !.yarn/sdks
 !.yarn/versions
 .eslintcache
+
+
+# Build artifacts
+target/
+build/
+
+# Logs
+*.log
+
+# Temporary files
 .DS_Store
